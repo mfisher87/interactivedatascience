@@ -1,0 +1,19 @@
+[project]
+name = "tutorial4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Matt Fisher", email = "mfisher87@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "sketchingpy[desktopall]>=0.3.1",
+]
+
+[project.scripts]
+tutorial4 = "tutorial4:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
