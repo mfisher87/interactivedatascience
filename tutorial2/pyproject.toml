@@ -1,0 +1,9 @@
+[project]
+name = "tutorial2"
+version = "0.1.0"
+description = "Tutorial: <https://interactivedatascience.courses/labs/python_graphics.html>"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "sketchingpy[desktopall]>=0.3.1",
+]
